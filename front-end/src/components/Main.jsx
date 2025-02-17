@@ -1,7 +1,7 @@
 import React from "react";
 import ItemList from "./ItemLists.jsx";// Não deve ter um caminho adicional como "@/components/"
-import { artistArray } from "../Assets/database/artists";
-import { songsArray } from "../Assets/database/songs";
+import { artistArray } from "../assets/database/artists";
+import { songsArray } from "../assets/database/songs";
 
 const Main = ({ type }) => {
   return (
