@@ -1,5 +1,5 @@
-import { artistArray } from "../../front-end/src/Assets/database/artists.js";
-import { songsArray } from "../../front-end/src/Assets/database/songs.js";
+import { artistArray } from "../../front-end/src/assets/database/artists.js";
+import { songsArray } from "../../front-end/src/assets/database/songs.js";
 import { db } from "./connect.js";
 const newArtistArray = artistArray.map((currentArtistObj) => {
 const newArtistObj = {...currentArtistObj};
