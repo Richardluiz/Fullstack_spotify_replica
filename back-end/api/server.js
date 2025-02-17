@@ -6,7 +6,7 @@
 
 import express from "express";
 import cors from "cors";
-import { db } from "./connect.js";
+import db from "./connect.js";
 import path from "path";
 
 const __dirname = path.resolve();
